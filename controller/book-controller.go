@@ -7,10 +7,10 @@ import (
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
-	"github.com/rudychandra/golang_gin_gorm_GWT/dto"
-	"github.com/rudychandra/golang_gin_gorm_GWT/entity"
-	"github.com/rudychandra/golang_gin_gorm_GWT/helper"
-	"github.com/rudychandra/golang_gin_gorm_GWT/service"
+	"github.com/hanspranata/golang_gin_gorm_GWT/dto"
+	"github.com/hanspranata/golang_gin_gorm_GWT/entity"
+	"github.com/hanspranata/golang_gin_gorm_GWT/helper"
+	"github.com/hanspranata/golang_gin_gorm_GWT/service"
 )
 
 type BookController interface {
