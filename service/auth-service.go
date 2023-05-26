@@ -4,9 +4,9 @@ import (
 	"log"
 
 	"github.com/mashingan/smapping"
-	"github.com/rudychandra/golang_gin_gorm_GWT/dto"
-	"github.com/rudychandra/golang_gin_gorm_GWT/entity"
-	"github.com/rudychandra/golang_gin_gorm_GWT/repository"
+	"github.com/hanspranata/golang_gin_gorm_GWT/dto"
+	"github.com/hanspranata/golang_gin_gorm_GWT/entity"
+	"github.com/hanspranata/golang_gin_gorm_GWT/repository"
 	"golang.org/x/crypto/bcrypt"
 )
 

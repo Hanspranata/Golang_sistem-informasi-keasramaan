@@ -1,4 +1,4 @@
-module github.com/rudychandra/golang_gin_gorm_GWT
+module github.com/hanspranata/golang_gin_gorm_GWT
 
 go 1.17
 

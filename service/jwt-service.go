@@ -26,7 +26,7 @@ type jwtService struct {
 //NewJWTService methode is creates a new instance of JWTService
 func NewJWTService() JWTService {
 	return &jwtService{
-		issuer:    "rudychandra",
+		issuer:    "hanspranata",
 		secretKey: getSecretKey(),
 	}
 }
@@ -34,7 +34,7 @@ func NewJWTService() JWTService {
 func getSecretKey() string {
 	secretKey := os.Getenv("JWT_SECRET")
 	if secretKey != "" {
-		secretKey = "rudychandra"
+		secretKey = "hanspranata"
 	}
 	return secretKey
 }
